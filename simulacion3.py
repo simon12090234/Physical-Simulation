@@ -114,7 +114,7 @@ while running:
         ball_body.velocity = (0, velocity.y)  # Detener en X si no se pulsa nada
 
     # Dibujar
-    screen.fill((40, 40, 40))
+    screen.fill((85, 85, 85))
     space.debug_draw(draw_options)
 
     space.step(1 / 60.0)
